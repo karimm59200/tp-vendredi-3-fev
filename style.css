@@ -1,0 +1,18 @@
+.imgDog{
+  height: 30vh;
+  width: 30vh;
+  background-color: azure;
+  border-radius: 50%;
+}
+
+.btn1{
+  position: relative;
+  left:85px;
+  top:-30px;
+}
+
+.btn2{
+  position:relative;
+  top:-30px;
+  right:-350px
+}
