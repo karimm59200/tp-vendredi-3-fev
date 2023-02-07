@@ -1,18 +1,33 @@
+
 .imgDog{
-  height: 30vh;
-  width: 30vh;
-  background-color: rgb(141, 56, 16);
-  border-radius: 50%;
+position:relative;
+  height: 40vh;
+  width: 40vh;
+  background-color: rgb(181, 146, 129); 
+  border-radius: 100%;
+  object-fit:contain;
 }
 
 .btn1{
-  position: relative;
-  left:85px;
-  top:-30px;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  transform: translate(-50%, -50%); 
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer; 
 }
 
 .btn2{
-  position:relative;
-  top:-30px;
-  right:-350px
+  position: absolute;
+  top: 80%;
+  left: 95%;
+   transform: translate(-50%, -50%); 
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+ 
+ 
 }
